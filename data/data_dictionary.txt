@@ -1,0 +1,16 @@
+CardId: Unique identifier for the credit card used in the transaction. Allows tracking of user behavior over time.
+Age_cat: Age category of the cardholder (e.g., "60+"). Useful for demographic segmentation.
+trx_date: Date of the transaction in YYYY-MM-DD format.
+trx_code: Internal transaction code (e.g., merchant or service identifier).
+trx_amount: Transaction amount in CHF.
+trx_currency: ISO currency code (e.g., 756 for CHF).
+trx_desc2: Merchant or service description (e.g., “SBB CFF FFS Mobile Tic”).
+trx_city: City where the transaction occurred.
+trx_country: Country code where the transaction occurred.
+trx_mcc: Merchant Category Code (MCC), a standard classification of merchant type.
+MccDesc: Textual description of the MCC (e.g., “TRANSPORTATION SERVICES NOT ELSEWHERE CLASSIFIED”).
+MccGroup: Broader category grouping of the MCC (e.g., “Transportation”, “Amusement and Entertainment”).
+IsCardPresent: Boolean flag indicating whether the card was physically present during the transaction (e.g., FALSE for online payments).
+IsPurchase: Boolean flag indicating whether the transaction was a purchase.
+IsCash: Boolean flag indicating whether the transaction involved cash withdrawal.
+LimitExhaustion_cat: Categorical indicator of how much of the card’s credit limit has been used (e.g., “1% - 20%”).
