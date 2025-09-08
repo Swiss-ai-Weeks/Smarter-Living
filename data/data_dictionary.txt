@@ -4,7 +4,7 @@ trx_date: Date of the transaction in YYYY-MM-DD format.
 trx_code: Internal transaction code (e.g., merchant or service identifier).
 trx_amount: Transaction amount in CHF.
 trx_currency: ISO currency code (e.g., 756 for CHF).
-trx_desc2: Merchant or service description (e.g., “SBB CFF FFS Mobile Tic”).
+trx_desc: Merchant or service description (e.g., “SBB CFF FFS Mobile Tic”).
 trx_city: City where the transaction occurred.
 trx_country: Country code where the transaction occurred.
 trx_mcc: Merchant Category Code (MCC), a standard classification of merchant type.
